@@ -32,7 +32,7 @@ jobs:
       - build
     name: 🐳 Package & Publish
     runs-on: ubuntu-latest
-     permissions:
+    permissions:
       contents: read
       packages: write
     outputs:
